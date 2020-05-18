@@ -9,7 +9,10 @@ background-color:black !important;
    padding-top: 35vh;
 }
 #landing-header h1{
-font size: 1.2rem;
+font-size: 3rem;
+}
+#landing-header a{
+font-size: 1.3rem;
 }
 .text-right.mr-3{
   z-index: 1;
