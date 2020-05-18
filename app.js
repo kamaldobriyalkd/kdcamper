@@ -28,7 +28,7 @@ mongoose.set('useNewUrlParser', true);
 mongoose.set('useUnifiedTopology', true);
 mongoose.set('useFindAndModify', false);
 //mongoose.connect("mongodb://localhost/kamal");
-mongoose.connect("mongodb+srv://kamal:dobriyal@kdcamper-mwxjy.mongodb.net/test?retryWrites=true&w=majority");
+mongoose.connect( process.env.DATABASEURL || "mongodb+srv://kamal:dobriyal@kdcamper-mwxjy.mongodb.net/test?retryWrites=true&w=majority");
 
 app.use(require("express-session")({
 secret:"KD is the best",
