@@ -24,11 +24,15 @@ app.set("view engine", "ejs");
 app.use(express.static("assets"));
 app.use(flash());
 
-mongoose.set('useNewUrlParser', true);
-mongoose.set('useUnifiedTopology', true);
-mongoose.set('useFindAndModify', false);
+
 //mongoose.connect("mongodb://localhost/kamal");
-mongoose.connect("mongodb://localhost/kdcamper?retryWrites=true&w=majority");
+mongoose.connect(process.env.DATABASEURL || "mongodb://localhost/kdcamper?retryWrites=true&w=majority",
+{
+  useNewUrlParser: true,
+  useCreateIndex: true,
+  useUnifiedTopology: true
+}
+);
 
 app.use(require("express-session")({
 secret:"KD is the best",
