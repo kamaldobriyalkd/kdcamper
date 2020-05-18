@@ -1,0 +1,45 @@
+<%- include ("../partials/headers")%>
+<div class="container">
+  <div class="well">
+  <h1 class="heading">Add New Camp Ground</h1>
+  <div class="newcampground">
+    <form method="POST" action="/campgrounds" autocomplete="off">
+
+      <div class="row">
+        <div class="form-group col-md-6">
+          <input class="form-control" type="text" name="newCampGround[name]" placeholder="enter name of camp" required />
+          </div>
+          <div class="form-group col-md-6">
+          <input class="form-control" type="text" name="newCampGround[place]" placeholder="enter camp location" required/>
+          </div>
+      </div>
+
+      <div class="row">
+        <div class="form-group col-md-6">
+          <input class="form-control" type="text" name="newCampGround[image]" placeholder="camp image url" required />
+          </div>
+          <div class="form-group col-md-6">
+            <input class="form-control" type="text" name="newCampGround[price]" placeholder="camp price per night" required />
+          </div>
+      </div>
+
+      <div class="form-group">
+      <textarea class="form-control" name="newCampGround[description]" placeholder="description goes here..." required></textarea>
+      </div>
+      <button class="btn btn-success">Add Now</button><br />
+    </form>
+    <br>
+    <a href="/campgrounds"><button class="btn btn-secondary">Go Back</button></a>
+  </div>
+  </div>
+</div>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<br>
+<%- include ("../partials/footers")%>

@@ -1,0 +1,168 @@
+body { 
+padding-top: 70px;
+}
+nav.navbar.navbar-expand-lg.fixed-top.navbar-light.py-0{
+background-color: rgb(241, 238, 238);
+}
+@media (min-width: 576px){
+  div.jumbotron {
+    padding: 25px;
+}
+}
+div.jumbotron{
+width:90%;
+margin: 0 auto;
+}
+div.jumbotron h1{
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+@media (max-width: 991px){
+  div.jumbotron h1{
+    font-size: 3.2rem;
+}
+}
+@media (max-width: 867px){
+  div.jumbotron h1{
+    font-size: 3rem;
+}
+}
+@media (max-width: 826px){
+  div.jumbotron h1{
+    font-size: 2.8rem;
+}
+}
+@media (max-width: 786px){
+  div.jumbotron h1{
+    font-size: 2.6rem;
+}
+}
+
+.place {
+  font-weight: 400;
+}
+.back a {
+  color: white;
+}
+.form {
+  width: 30%;
+  margin: 0 auto;
+}
+button a{
+  color: white;
+}
+a button.btn.btn-outline-info{
+  font-size: .8em;
+  font-weight: 700;
+}
+div.container div.newcampground, div.container div.login, div.container div.signup{
+  width: 40%;
+  margin: 25px auto;
+}
+div.container div.newcampground button{
+  width: 100%;
+}
+div.container div.newcampground button a:hover{
+  color: white;
+  text-decoration: none;
+}
+div.container h1.heading{
+  text-align: center;
+}
+p.description{
+  margin-top: 15px;
+  text-align: justify;
+}
+div.well {
+  background-color: rgba(211, 211, 211, 0.336);
+  padding: 10px;
+  margin-top: 10px;
+  border: solid rgba(211, 211, 211, 0.432) 2px;
+  border-radius: 0.25rem;
+}
+div.row.reviews{
+margin: 20px 0;
+}
+.img-thumbnail img.img-responsive{
+  width: 100%;
+}
+div.row div.col-md-6 div.img-thumbnail{
+  padding: 0;
+}
+div.row div.col-md-6 div.img-thumbnail a button{
+margin-bottom: 10px;
+}
+div.row div.col-md-9 div.img-thumbnail{
+  padding: 0;
+}
+.img-thumbnail .caption-full{
+padding: 9px;
+}
+.btn.btn-warning, .btn.btn-warning:hover, a.btn.btn-warning:active, .btn.btn-outline-warning:hover, a.btn.btn-outline-warning:active{
+  color: white !important;
+}
+@media (max-width: 767px){
+  .container .row .col-md-9 {
+    margin-top: 30px;
+}
+}
+.btn.btn-sm.btn-outline-warning, .btn.btn-sm.btn-outline-danger{
+  font-size: 0.7rem;
+}
+textarea{
+resize: none !important;
+}
+.navbar-brand{
+  font-weight: 700;
+  font-size: 1.4rem !important;
+}
+
+.fas.fa-home{
+  font-size: 1.6rem;
+  color: black;
+  margin-left: 4px;
+  margin-right: 15px;
+  border-right: 1px gray solid;
+  border-left: 1px gray solid;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.nav-item.nav-link{
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.bi.bi-box-arrow-in-right{
+  margin-top: -3px;
+  margin-right: 5px;
+}
+.bi.bi-box-arrow-right{
+  margin-top: -3px;
+  margin-right: 5px;
+}
+.bi.bi-plus-square{
+  margin-top: -4px;
+  margin-right: 2px;
+}
+.bi.bi-chevron-double-right{
+  margin-top: -3px;
+}
+.bi.bi-chat-dots-fill{
+  margin-top: -2px;
+}
+.bi.bi-pencil-square{
+ margin-top: -3px;
+}
+.bi.bi-trash-fill{
+  margin-top: -3px;
+}
+.fas.fa-campground{
+  font-size: 5rem;
+}
+.fas.fa-user, .fas.fa-key, .fas.fa-eye{
+  font-size: 1.4rem;
+}
+.fas.fa-user-circle{
+  font-size: 1.3rem;
+}

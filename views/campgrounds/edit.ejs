@@ -1,0 +1,47 @@
+<%- include ("../partials/headers")%>
+<div class="container">
+  <div class="well">
+    <h1 class="heading">Edit <%=foundCamp.name%></h1>
+      <div class="newcampground">
+        <form method="POST" action="/campgrounds/<%=foundCamp._id%>?_method=PUT" autocomplete="off">
+  
+          <div class="row">
+            <div class="form-group col-md-6">
+              <input class="form-control" type="text" name="campGround[name]" value="<%=foundCamp.name%>" placeholder="enter name of camp" required />
+              </div>
+              <div class="form-group col-md-6">
+              <input class="form-control" type="text" name="campGround[place]" value="<%=foundCamp.place%>" placeholder="enter camp location" required/>
+              </div>
+          </div>
+  
+          <div class="row">
+            <div class="form-group col-md-6">
+              <input class="form-control" type="text" name="campGround[image]" value="<%=foundCamp.image%>" placeholder="camp image url" required />
+              </div>
+              <div class="form-group col-md-6">
+                <input class="form-control" type="text" name="campGround[price]" value="<%=foundCamp.price%>" placeholder="camp price per night" required />
+              </div>
+          </div>
+  
+          <div class="form-group">
+          <textarea class="form-control" name="campGround[description]" placeholder="description goes here..." required><%=foundCamp.description%></textarea>
+          </div>
+          <div class="form-group">
+          <button class="btn btn-warning">Edit Now</button>
+          </div>
+        </form>
+        <a href="/campgrounds/<%=foundCamp._id%>" class=" pull-right h5">Cancel</a>
+      </div>
+    </div>
+  </div>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+<%- include ("../partials/footers")%>
