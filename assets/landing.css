@@ -8,6 +8,9 @@ background-color:black !important;
    text-align: center;
    padding-top: 35vh;
 }
+#landing-header h1{
+font size: 1.2rem;
+}
 .text-right.mr-3{
   z-index: 1;
   position: relative;
