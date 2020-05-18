@@ -1,5 +1,5 @@
 body { 
-padding-top: 70px;
+padding-top: 90px;
 }
 nav.navbar.navbar-expand-lg.fixed-top.navbar-light.py-0{
 background-color: rgb(241, 238, 238);
@@ -14,6 +14,7 @@ width:90%;
 margin: 0 auto;
 }
 div.jumbotron h1{
+  font-size: 4.8rem;
   font-weight: 500;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
@@ -80,6 +81,16 @@ div.well {
   border: solid rgba(211, 211, 211, 0.432) 2px;
   border-radius: 0.25rem;
 }
+
+div.well .form-control{
+font-size:1.2rem;
+}
+.well .btn.btn-success.btn-block{
+font-size:1.6rem;
+}
+.well .btn.btn-info.btn-block{
+font-size:1.6rem;
+}
 div.row.reviews{
 margin: 20px 0;
 }
@@ -114,11 +125,11 @@ resize: none !important;
 }
 .navbar-brand{
   font-weight: 700;
-  font-size: 1.4rem !important;
+  font-size: 2rem !important;
 }
 
 .fas.fa-home{
-  font-size: 1.6rem;
+  font-size: 2rem;
   color: black;
   margin-left: 4px;
   margin-right: 15px;
@@ -129,7 +140,7 @@ resize: none !important;
 }
 
 .nav-item.nav-link{
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   font-weight: 500;
 }
 
@@ -141,10 +152,20 @@ resize: none !important;
   margin-top: -3px;
   margin-right: 5px;
 }
+
+p.lead{
+font-size:2rem !important;
+}
+
 .bi.bi-plus-square{
   margin-top: -4px;
   margin-right: 2px;
 }
+
+p.lead .btn.btn-primary.btn-lg{
+font-size: 1.5rem ;
+}
+
 .bi.bi-chevron-double-right{
   margin-top: -3px;
 }
@@ -161,8 +182,23 @@ resize: none !important;
   font-size: 5rem;
 }
 .fas.fa-user, .fas.fa-key, .fas.fa-eye{
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 .fas.fa-user-circle{
   font-size: 1.3rem;
+}
+div.alert{
+padding-bottom: 0;
+padding-right:0;
+font-size:1.8rem;
+font-weight:600;
+padding-top:0;
+height:45px;
+}
+div.alert button{
+margin-top:-5px;
+}
+
+div.well .heading{
+font-size:3.2rem;
 }
