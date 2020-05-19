@@ -45,8 +45,8 @@ div.jumbotron h1{
 .back a {
   color: white;
 }
-.form {
-  width: 30%;
+form {
+  width: 100%;
   margin: 0 auto;
 }
 button a{
@@ -74,6 +74,7 @@ p.description{
   margin-top: 15px;
   text-align: justify;
 }
+
 div.well {
   background-color: rgba(211, 211, 211, 0.336);
   padding: 10px;
@@ -81,7 +82,6 @@ div.well {
   border: solid rgba(211, 211, 211, 0.432) 2px;
   border-radius: 0.25rem;
 }
-
 div.well .form-control{
 font-size:1.2rem;
 }
