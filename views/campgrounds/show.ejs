@@ -14,8 +14,8 @@
             <div class="img-thumbnail">
                 <image class="img-responsive" src="<%=foundCamp.image%>">
                 <div class="caption-full">
-                   <h5 class="float-left"><i>Uploaded by <%=foundCamp.author.username%></i></h5>
-                    <h4 class="mr-5">₹<%=foundCamp.price%>/night</h4>
+                   <h5 class="float-left mr-5" style=" margin-right:508px !important;" ><i>Uploaded by <%=foundCamp.author.username%></i></h5>
+                    <h4>₹<%=foundCamp.price%>/night</h4>
                     
                     <%if(currentUser && foundCamp.author.id.equals(currentUser._id)){%>
                         <a href="/campgrounds/<%=foundCamp._id%>/edit" class="btn btn-warning" >Edit <svg class="bi bi-pencil-square" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
