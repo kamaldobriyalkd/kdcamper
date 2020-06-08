@@ -24,7 +24,7 @@
     <% campGrounds.forEach(function(camp){%>
     <div class="col-lg-4 col-sm-12 mb-5 mt-5">
 <div class="img-thumbnail" >
-    <img src="<%=camp.image%>" class="img-responsive campground" height="255px"/>
+    <img src="<%=camp.image%>" class="img-responsive campground"/>
       <h3 class="mb-n1"><%=camp.name%></h3>
       <h4 class="place mb-3">(<%=camp.place%>)</h4>
       <a href="/campgrounds/<%=camp._id%>"><button type="button" class="btn btn-outline-info">See Full Post <svg class="bi bi-chevron-double-right" width="1.2em" height="1.2em" viewBox="0 0 16 16" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
